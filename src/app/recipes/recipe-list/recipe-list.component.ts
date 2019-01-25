@@ -7,9 +7,9 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.scss']
 })
 export class RecipeListComponent implements OnInit {
-  recipe: Recipe[]= [
+  recipes: Recipe[]= [
     new Recipe('choco','taste good','https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chocolate-fudge-cake.jpg'),
-    // new Recipe('chicken','yummy','https://www.thegunnysack.com/wp-content/uploads/2018/03/Honey-Garlic-Chicken-Recipe.jpg')
+    new Recipe('chicken','yummy','https://www.thegunnysack.com/wp-content/uploads/2018/03/Honey-Garlic-Chicken-Recipe.jpg')
   ];
 
   constructor() { }
